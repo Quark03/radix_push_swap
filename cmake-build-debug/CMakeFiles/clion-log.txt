@@ -1,0 +1,4 @@
+/home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/ninja/linux/ninja -G Ninja -S /home/quark/Documents/42/radix_push_swap -B /home/quark/Documents/42/radix_push_swap/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/quark/Documents/42/radix_push_swap/cmake-build-debug
