@@ -60,37 +60,6 @@ int is_sorted(t_stack *head)
     return (1);
 }
 
-/**
- * Check if the list is semi sorted. In order but min not on top
- * @param head
- * @return
- */
-int is_semi_sorted(t_stack *head)
-{
-    int len = lst_length(head);
-    int min = get_min(head);
-    int min_pos = lst_index_by_value(head, min);
-    int max_rel = min;
-    int start = 0;
-    while (min_pos < len) {
-        int val = lst_value_by_index(head, min_pos);
-        if (val < max_rel)
-            return (0);
-        else
-            max_rel = val;
-        min_pos++;
-    }
-    while (start < min_pos) {
-        int val = lst_value_by_index(head, start);
-        if (val < max_rel)
-            return (0);
-        else
-            max_rel = val;
-        start++;
-    }
-    return (1);
-}
-
 int get_min(t_stack *head)
 {
     int min;

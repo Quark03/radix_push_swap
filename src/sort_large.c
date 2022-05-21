@@ -28,8 +28,9 @@ void flip_numbers()
 
 /**
  * Sort When Length > 5
+ * @param negative 1 if there are negative numbers
  */
-void sort_large()
+void sort_large(int negative)
 {
     int length = lst_length((*get_stack(A)));
     int max = get_max((*get_stack(A)));
@@ -48,6 +49,9 @@ void sort_large()
             ++j;
         }
         while(lst_length((*get_stack(B))) > 0) exec_command(9);
+        if (negative && is_sorted((*get_stack(A)))) {
+            break;
+        }
         ++i;
     }
 

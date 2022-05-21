@@ -70,7 +70,7 @@ void lst_delete_front(t_stack **list);
 void sort_small(void);
 
 // sort_large.c
-void sort_large(void);
+void sort_large(int negative);
 int flip_number(int nbr);
 void flip_numbers();
 

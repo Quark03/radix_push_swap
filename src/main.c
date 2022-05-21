@@ -45,11 +45,11 @@ void stack_sort()
     if (lst_length((*get_stack(A))) > 5)
     {
         if (has_negative((*get_stack(A))) == 0)
-            sort_large();
+            sort_large(0);
         else
         {
             flip_numbers();
-            sort_large();
+            sort_large(1);
             flip_numbers();
             reorder_a();
         }
