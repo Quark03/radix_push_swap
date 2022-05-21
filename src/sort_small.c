@@ -34,9 +34,9 @@ void sort3(void)
 
 void sort_small(void)
 {
-    if (lst_length((*get_stack(A))) < 4)
-        sort3();
-    else
+    if (lst_length((*get_stack(A))) > 3)
         sort5();
+    else
+        sort3();
 }
 

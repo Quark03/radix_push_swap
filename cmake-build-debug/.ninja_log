@@ -49,3 +49,7 @@
 35	54	1653160154411728482	radix_push_swap	bddb0e82e60bdde6
 0	32	1653160368595669323	CMakeFiles/radix_push_swap.dir/src/sort_large.c.o	e0f4ce2e79f64fd0
 32	59	1653160368619669344	radix_push_swap	bddb0e82e60bdde6
+1	31	1653162691365275846	CMakeFiles/radix_push_swap.dir/src/sort_small.c.o	a9ce250c9f3051dd
+0	40	1653162691369275872	CMakeFiles/radix_push_swap.dir/src/main.c.o	4e7ad76084a992da
+0	45	1653162691381275950	CMakeFiles/radix_push_swap.dir/src/utils.c.o	f9f4380104067752
+45	69	1653162691405276106	radix_push_swap	bddb0e82e60bdde6
