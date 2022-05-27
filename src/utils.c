@@ -44,6 +44,13 @@ void exec_command(int cmd)
         pb();
 }
 
+void exec_multiple(int cmd, int rep)
+{
+    int i = 0;
+    while (i++ < rep)
+        exec_command(cmd);
+}
+
 /**
  * Check if list is ordered
  * @param head

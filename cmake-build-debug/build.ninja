@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/quark/Documents/42/radix_push_swap/cmake-build-debug/
+cmake_ninja_workdir = /Users/antoniofestas/Documents/42/radix_push_swap/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target radix_push_swap
 
@@ -49,93 +49,99 @@ cmake_ninja_workdir = /home/quark/Documents/42/radix_push_swap/cmake-build-debug
 
 build cmake_object_order_depends_target_radix_push_swap: phony || CMakeFiles/radix_push_swap.dir
 
-build CMakeFiles/radix_push_swap.dir/libft/ft_putstr_fd.c.o: C_COMPILER__radix_push_swap_Debug /home/quark/Documents/42/radix_push_swap/libft/ft_putstr_fd.c || cmake_object_order_depends_target_radix_push_swap
+build CMakeFiles/radix_push_swap.dir/libft/ft_putstr_fd.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/libft/ft_putstr_fd.c || cmake_object_order_depends_target_radix_push_swap
   DEP_FILE = CMakeFiles/radix_push_swap.dir/libft/ft_putstr_fd.c.o.d
-  FLAGS = -g -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/libft
 
-build CMakeFiles/radix_push_swap.dir/libft/ft_atoi.c.o: C_COMPILER__radix_push_swap_Debug /home/quark/Documents/42/radix_push_swap/libft/ft_atoi.c || cmake_object_order_depends_target_radix_push_swap
+build CMakeFiles/radix_push_swap.dir/libft/ft_atoi.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/libft/ft_atoi.c || cmake_object_order_depends_target_radix_push_swap
   DEP_FILE = CMakeFiles/radix_push_swap.dir/libft/ft_atoi.c.o.d
-  FLAGS = -g -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/libft
 
-build CMakeFiles/radix_push_swap.dir/libft/ft_isdigit.c.o: C_COMPILER__radix_push_swap_Debug /home/quark/Documents/42/radix_push_swap/libft/ft_isdigit.c || cmake_object_order_depends_target_radix_push_swap
+build CMakeFiles/radix_push_swap.dir/libft/ft_isdigit.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/libft/ft_isdigit.c || cmake_object_order_depends_target_radix_push_swap
   DEP_FILE = CMakeFiles/radix_push_swap.dir/libft/ft_isdigit.c.o.d
-  FLAGS = -g -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/libft
 
-build CMakeFiles/radix_push_swap.dir/libft/ft_putchar_fd.c.o: C_COMPILER__radix_push_swap_Debug /home/quark/Documents/42/radix_push_swap/libft/ft_putchar_fd.c || cmake_object_order_depends_target_radix_push_swap
+build CMakeFiles/radix_push_swap.dir/libft/ft_putchar_fd.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/libft/ft_putchar_fd.c || cmake_object_order_depends_target_radix_push_swap
   DEP_FILE = CMakeFiles/radix_push_swap.dir/libft/ft_putchar_fd.c.o.d
-  FLAGS = -g -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/libft
 
-build CMakeFiles/radix_push_swap.dir/libft/ft_putnbr_fd.c.o: C_COMPILER__radix_push_swap_Debug /home/quark/Documents/42/radix_push_swap/libft/ft_putnbr_fd.c || cmake_object_order_depends_target_radix_push_swap
+build CMakeFiles/radix_push_swap.dir/libft/ft_putnbr_fd.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/libft/ft_putnbr_fd.c || cmake_object_order_depends_target_radix_push_swap
   DEP_FILE = CMakeFiles/radix_push_swap.dir/libft/ft_putnbr_fd.c.o.d
-  FLAGS = -g -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/libft
 
-build CMakeFiles/radix_push_swap.dir/libft/ft_strlen.c.o: C_COMPILER__radix_push_swap_Debug /home/quark/Documents/42/radix_push_swap/libft/ft_strlen.c || cmake_object_order_depends_target_radix_push_swap
+build CMakeFiles/radix_push_swap.dir/libft/ft_strlen.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/libft/ft_strlen.c || cmake_object_order_depends_target_radix_push_swap
   DEP_FILE = CMakeFiles/radix_push_swap.dir/libft/ft_strlen.c.o.d
-  FLAGS = -g -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/libft
 
-build CMakeFiles/radix_push_swap.dir/src/main.c.o: C_COMPILER__radix_push_swap_Debug /home/quark/Documents/42/radix_push_swap/src/main.c || cmake_object_order_depends_target_radix_push_swap
+build CMakeFiles/radix_push_swap.dir/src/main.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/src/main.c || cmake_object_order_depends_target_radix_push_swap
   DEP_FILE = CMakeFiles/radix_push_swap.dir/src/main.c.o.d
-  FLAGS = -g -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/src
 
-build CMakeFiles/radix_push_swap.dir/src/utils.c.o: C_COMPILER__radix_push_swap_Debug /home/quark/Documents/42/radix_push_swap/src/utils.c || cmake_object_order_depends_target_radix_push_swap
+build CMakeFiles/radix_push_swap.dir/src/utils.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/src/utils.c || cmake_object_order_depends_target_radix_push_swap
   DEP_FILE = CMakeFiles/radix_push_swap.dir/src/utils.c.o.d
-  FLAGS = -g -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/src
 
-build CMakeFiles/radix_push_swap.dir/src/stacks.c.o: C_COMPILER__radix_push_swap_Debug /home/quark/Documents/42/radix_push_swap/src/stacks.c || cmake_object_order_depends_target_radix_push_swap
+build CMakeFiles/radix_push_swap.dir/src/stacks.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/src/stacks.c || cmake_object_order_depends_target_radix_push_swap
   DEP_FILE = CMakeFiles/radix_push_swap.dir/src/stacks.c.o.d
-  FLAGS = -g -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/src
 
-build CMakeFiles/radix_push_swap.dir/src/commands.c.o: C_COMPILER__radix_push_swap_Debug /home/quark/Documents/42/radix_push_swap/src/commands.c || cmake_object_order_depends_target_radix_push_swap
+build CMakeFiles/radix_push_swap.dir/src/commands.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/src/commands.c || cmake_object_order_depends_target_radix_push_swap
   DEP_FILE = CMakeFiles/radix_push_swap.dir/src/commands.c.o.d
-  FLAGS = -g -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/src
 
-build CMakeFiles/radix_push_swap.dir/src/sort_small.c.o: C_COMPILER__radix_push_swap_Debug /home/quark/Documents/42/radix_push_swap/src/sort_small.c || cmake_object_order_depends_target_radix_push_swap
+build CMakeFiles/radix_push_swap.dir/src/sort_small.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/src/sort_small.c || cmake_object_order_depends_target_radix_push_swap
   DEP_FILE = CMakeFiles/radix_push_swap.dir/src/sort_small.c.o.d
-  FLAGS = -g -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/src
 
-build CMakeFiles/radix_push_swap.dir/src/sort_large.c.o: C_COMPILER__radix_push_swap_Debug /home/quark/Documents/42/radix_push_swap/src/sort_large.c || cmake_object_order_depends_target_radix_push_swap
+build CMakeFiles/radix_push_swap.dir/src/sort_large.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/src/sort_large.c || cmake_object_order_depends_target_radix_push_swap
   DEP_FILE = CMakeFiles/radix_push_swap.dir/src/sort_large.c.o.d
-  FLAGS = -g -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/src
 
-build CMakeFiles/radix_push_swap.dir/libft/ft_strncmp.c.o: C_COMPILER__radix_push_swap_Debug /home/quark/Documents/42/radix_push_swap/libft/ft_strncmp.c || cmake_object_order_depends_target_radix_push_swap
+build CMakeFiles/radix_push_swap.dir/libft/ft_strncmp.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/libft/ft_strncmp.c || cmake_object_order_depends_target_radix_push_swap
   DEP_FILE = CMakeFiles/radix_push_swap.dir/libft/ft_strncmp.c.o.d
-  FLAGS = -g -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/libft
 
-build CMakeFiles/radix_push_swap.dir/libft/ft_memcmp.c.o: C_COMPILER__radix_push_swap_Debug /home/quark/Documents/42/radix_push_swap/libft/ft_memcmp.c || cmake_object_order_depends_target_radix_push_swap
+build CMakeFiles/radix_push_swap.dir/libft/ft_memcmp.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/libft/ft_memcmp.c || cmake_object_order_depends_target_radix_push_swap
   DEP_FILE = CMakeFiles/radix_push_swap.dir/libft/ft_memcmp.c.o.d
-  FLAGS = -g -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/libft
 
-build CMakeFiles/radix_push_swap.dir/src/long_atoi.c.o: C_COMPILER__radix_push_swap_Debug /home/quark/Documents/42/radix_push_swap/src/long_atoi.c || cmake_object_order_depends_target_radix_push_swap
+build CMakeFiles/radix_push_swap.dir/src/long_atoi.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/src/long_atoi.c || cmake_object_order_depends_target_radix_push_swap
   DEP_FILE = CMakeFiles/radix_push_swap.dir/src/long_atoi.c.o.d
-  FLAGS = -g -std=gnu99
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/radix_push_swap.dir
+  OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/src
+
+build CMakeFiles/radix_push_swap.dir/src/sort5_algo.c.o: C_COMPILER__radix_push_swap_Debug /Users/antoniofestas/Documents/42/radix_push_swap/src/sort5_algo.c || cmake_object_order_depends_target_radix_push_swap
+  DEP_FILE = CMakeFiles/radix_push_swap.dir/src/sort5_algo.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   OBJECT_FILE_DIR = CMakeFiles/radix_push_swap.dir/src
 
@@ -147,8 +153,8 @@ build CMakeFiles/radix_push_swap.dir/src/long_atoi.c.o: C_COMPILER__radix_push_s
 #############################################
 # Link the executable radix_push_swap
 
-build radix_push_swap: C_EXECUTABLE_LINKER__radix_push_swap_Debug CMakeFiles/radix_push_swap.dir/libft/ft_putstr_fd.c.o CMakeFiles/radix_push_swap.dir/libft/ft_atoi.c.o CMakeFiles/radix_push_swap.dir/libft/ft_isdigit.c.o CMakeFiles/radix_push_swap.dir/libft/ft_putchar_fd.c.o CMakeFiles/radix_push_swap.dir/libft/ft_putnbr_fd.c.o CMakeFiles/radix_push_swap.dir/libft/ft_strlen.c.o CMakeFiles/radix_push_swap.dir/src/main.c.o CMakeFiles/radix_push_swap.dir/src/utils.c.o CMakeFiles/radix_push_swap.dir/src/stacks.c.o CMakeFiles/radix_push_swap.dir/src/commands.c.o CMakeFiles/radix_push_swap.dir/src/sort_small.c.o CMakeFiles/radix_push_swap.dir/src/sort_large.c.o CMakeFiles/radix_push_swap.dir/libft/ft_strncmp.c.o CMakeFiles/radix_push_swap.dir/libft/ft_memcmp.c.o CMakeFiles/radix_push_swap.dir/src/long_atoi.c.o
-  FLAGS = -g
+build radix_push_swap: C_EXECUTABLE_LINKER__radix_push_swap_Debug CMakeFiles/radix_push_swap.dir/libft/ft_putstr_fd.c.o CMakeFiles/radix_push_swap.dir/libft/ft_atoi.c.o CMakeFiles/radix_push_swap.dir/libft/ft_isdigit.c.o CMakeFiles/radix_push_swap.dir/libft/ft_putchar_fd.c.o CMakeFiles/radix_push_swap.dir/libft/ft_putnbr_fd.c.o CMakeFiles/radix_push_swap.dir/libft/ft_strlen.c.o CMakeFiles/radix_push_swap.dir/src/main.c.o CMakeFiles/radix_push_swap.dir/src/utils.c.o CMakeFiles/radix_push_swap.dir/src/stacks.c.o CMakeFiles/radix_push_swap.dir/src/commands.c.o CMakeFiles/radix_push_swap.dir/src/sort_small.c.o CMakeFiles/radix_push_swap.dir/src/sort_large.c.o CMakeFiles/radix_push_swap.dir/libft/ft_strncmp.c.o CMakeFiles/radix_push_swap.dir/libft/ft_memcmp.c.o CMakeFiles/radix_push_swap.dir/src/long_atoi.c.o CMakeFiles/radix_push_swap.dir/src/sort5_algo.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/radix_push_swap.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -160,9 +166,8 @@ build radix_push_swap: C_EXECUTABLE_LINKER__radix_push_swap_Debug CMakeFiles/rad
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/quark/Documents/42/radix_push_swap/cmake-build-debug && /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/bin/ccmake -S/home/quark/Documents/42/radix_push_swap -B/home/quark/Documents/42/radix_push_swap/cmake-build-debug
-  DESC = Running CMake cache editor...
-  pool = console
+  COMMAND = cd /Users/antoniofestas/Documents/42/radix_push_swap/cmake-build-debug && "/Users/antoniofestas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -172,7 +177,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/quark/Documents/42/radix_push_swap/cmake-build-debug && /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/quark/Documents/42/radix_push_swap -B/home/quark/Documents/42/radix_push_swap/cmake-build-debug
+  COMMAND = cd /Users/antoniofestas/Documents/42/radix_push_swap/cmake-build-debug && "/Users/antoniofestas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/antoniofestas/Documents/42/radix_push_swap -B/Users/antoniofestas/Documents/42/radix_push_swap/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -188,7 +193,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/quark/Documents/42/radix_push_swap/cmake-build-debug
+# Folder: /Users/antoniofestas/Documents/42/radix_push_swap/cmake-build-debug
 
 build all: phony radix_push_swap
 
@@ -199,14 +204,14 @@ build all: phony radix_push_swap
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCInformation.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCInformation.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake /home/quark/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
+build ../CMakeLists.txt /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCInformation.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/AppleClang-C.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/Clang.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Compiler/GNU.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-AppleClang-C.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang-C.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Apple-Clang.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin-Initialize.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/Darwin.cmake /Users/antoniofestas/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
 
 
 #############################################
