@@ -166,6 +166,7 @@ void	print_list(t_stack *head)
         ft_putstr_fd(" ", 1);
         head = head->next;
     }
+    ft_putstr_fd("\n", 1);
 }
 
 int has_negative(t_stack *head)

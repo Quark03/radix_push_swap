@@ -66,10 +66,6 @@ void lst_delete_front(t_stack **list);
 // sort_small.c
 void sort_small(void);
 
-// sort5_algo.c
-void push_max_to_b();
-void place_on_a();
-
 // sort_large.c
 void sort_large(int negative);
 int flip_number(int nbr);

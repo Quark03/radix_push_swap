@@ -13,6 +13,8 @@ void sort3(void)
 {
     int min_pos = lst_index_by_value((*get_stack(A)), get_min((*get_stack(A))));
     int max_pos = lst_index_by_value((*get_stack(A)), get_max((*get_stack(A))));
+    if (is_sorted((*get_stack(A))))
+        return;
     if (min_pos == 0)
     {
         exec_command(3);
@@ -32,14 +34,46 @@ void sort3(void)
         exec_command(6);
 }
 
+void complex_sort(int value)
+{
+    t_stack  *head = (*get_stack(A));
+    int moves = 0;
+    while (head)
+    {
+        if(head->content < value)
+            moves++;
+        head = head->next;
+    }
+    if (moves <= 2)
+    {
+        while (moves-- > 0)
+            exec_command(3);
+    }
+    else
+        exec_command(6);
+
+    exec_command(9);
+}
+
+void sort_to_a(int value)
+{
+    int max = get_max((*get_stack(A)));
+    if (value > max)
+        exec_command(9);
+    else
+        complex_sort(value);
+}
+
 void sort5(void)
 {
     while(lst_length((*get_stack(A))) > 3)
-        push_max_to_b();
+        exec_command(10);
     sort3();
     while (lst_length((*get_stack(B))) > 0)
-        place_on_a();
-
+    {
+        sort_to_a((*get_stack(B))->content);
+        reorder_a();
+    }
 }
 
 void sort_small(void)
