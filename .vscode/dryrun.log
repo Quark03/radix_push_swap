@@ -1,6 +1,94 @@
-make --dry-run --always-make --keep-going --print-directory
+make --dry-run --keep-going --print-directory
 make: Entering directory `/Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap'
+gcc -Wall -Wextra -Werror -c src/stacks2.c -o src/stacks2.o -I includes
+gcc -Wall -Wextra -Werror -c src/utils.c -o src/utils.o -I includes
+gcc -Wall -Wextra -Werror -c src/utils2.c -o src/utils2.o -I includes
+gcc -Wall -Wextra -Werror -c src/utils3.c -o src/utils3.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_atoi.c -o libft/ft_atoi.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_bzero.c -o libft/ft_bzero.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_calloc.c -o libft/ft_calloc.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_isalnum.c -o libft/ft_isalnum.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_isalpha.c -o libft/ft_isalpha.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_isascii.c -o libft/ft_isascii.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_isdigit.c -o libft/ft_isdigit.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_isprint.c -o libft/ft_isprint.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_itoa.c -o libft/ft_itoa.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_memchr.c -o libft/ft_memchr.o -I includes
+ 
+gcc -Wall -Wextra -Werror -c libft/ft_memcmp.c -o libft/ft_memcmp.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_memcpy.c -o libft/ft_memcpy.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_memmove.c -o libft/ft_memmove.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_memset.c -o libft/ft_memset.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_putchar_fd.c -o libft/ft_putchar_fd.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_putendl_fd.c -o libft/ft_putendl_fd.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_putnbr_fd.c -o libft/ft_putnbr_fd.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_putstr_fd.c -o libft/ft_putstr_fd.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_split.c -o libft/ft_split.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_strchr.c -o libft/ft_strchr.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_strdup.c -o libft/ft_strdup.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_striteri.c -o libft/ft_striteri.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_strjoin.c -o libft/ft_strjoin.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_strlcat.c -o libft/ft_strlcat.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_strlcpy.c -o libft/ft_strlcpy.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_strlen.c -o libft/ft_strlen.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_strmapi.c -o libft/ft_strmapi.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_strncmp.c -o libft/ft_strncmp.o -I includes
+ 
+gcc -Wall -Wextra -Werror -c libft/ft_strnstr.c -o libft/ft_strnstr.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_strrchr.c -o libft/ft_strrchr.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_strtrim.c -o libft/ft_strtrim.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_substr.c -o libft/ft_substr.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_tolower.c -o libft/ft_tolower.o -I includes
+gcc -Wall -Wextra -Werror -c libft/ft_toupper.c -o libft/ft_toupper.o -I includes
+ar rc libftprintf.a src/commands.o src/commands2.o src/commands3.o src/long_atoi.o src/main.o src/sort_large.o src/sort_small.o src/sort_small2.o src/stacks.o src/stacks2.o src/utils.o src/utils2.o src/utils3.o libft/ft_atoi.o libft/ft_bzero.o libft/ft_calloc.o libft/ft_isalnum.o libft/ft_isalpha.o libft/ft_isascii.o libft/ft_isdigit.o libft/ft_isprint.o libft/ft_itoa.o libft/ft_memchr.o libft/ft_memcmp.o libft/ft_memcpy.o libft/ft_memmove.o libft/ft_memset.o libft/ft_putchar_fd.o libft/ft_putendl_fd.o libft/ft_putnbr_fd.o libft/ft_putstr_fd.o libft/ft_split.o libft/ft_strchr.o libft/ft_strdup.o libft/ft_striteri.o libft/ft_strjoin.o libft/ft_strlcat.o libft/ft_strlcpy.o libft/ft_strlen.o libft/ft_strmapi.o libft/ft_strncmp.o libft/ft_strnstr.o libft/ft_strrchr.o libft/ft_strtrim.o libft/ft_substr.o libft/ft_tolower.o libft/ft_toupper.o
+ranlib libftprintf.a
+cd libft && /Library/Developer/CommandLineTools/usr/bin/make
+ 
+make[1]: Entering directory `/Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap/libft'
+gcc -Wall -Wextra -Werror -c ft_atoi.c -o ft_atoi.o -I includes
+ 
+gcc -Wall -Wextra -Werror -c ft_bzero.c -o ft_bzero.o -I includes
+gcc -Wall -Wextra -Werror -c ft_calloc.c -o ft_calloc.o -I includes
+gcc -Wall -Wextra -Werror -c ft_isalnum.c -o ft_isalnum.o -I includes
+gcc -Wall -Wextra -Werror -c ft_isalpha.c -o ft_isalpha.o -I includes
+gcc -Wall -Wextra -Werror -c ft_isascii.c -o ft_isascii.o -I includes
+gcc -Wall -Wextra -Werror -c ft_isdigit.c -o ft_isdigit.o -I includes
+gcc -Wall -Wextra -Werror -c ft_isprint.c -o ft_isprint.o -I includes
+gcc -Wall -Wextra -Werror -c ft_itoa.c -o ft_itoa.o -I includes
+gcc -Wall -Wextra -Werror -c ft_memchr.c -o ft_memchr.o -I includes
+gcc -Wall -Wextra -Werror -c ft_memcmp.c -o ft_memcmp.o -I includes
+gcc -Wall -Wextra -Werror -c ft_memcpy.c -o ft_memcpy.o -I includes
+gcc -Wall -Wextra -Werror -c ft_memmove.c -o ft_memmove.o -I includes
+ 
+gcc -Wall -Wextra -Werror -c ft_memset.c -o ft_memset.o -I includes
+gcc -Wall -Wextra -Werror -c ft_putchar_fd.c -o ft_putchar_fd.o -I includes
+gcc -Wall -Wextra -Werror -c ft_putendl_fd.c -o ft_putendl_fd.o -I includes
+gcc -Wall -Wextra -Werror -c ft_putnbr_fd.c -o ft_putnbr_fd.o -I includes
+ 
+gcc -Wall -Wextra -Werror -c ft_putstr_fd.c -o ft_putstr_fd.o -I includes
+gcc -Wall -Wextra -Werror -c ft_split.c -o ft_split.o -I includes
+gcc -Wall -Wextra -Werror -c ft_strchr.c -o ft_strchr.o -I includes
+gcc -Wall -Wextra -Werror -c ft_strdup.c -o ft_strdup.o -I includes
+gcc -Wall -Wextra -Werror -c ft_striteri.c -o ft_striteri.o -I includes
+gcc -Wall -Wextra -Werror -c ft_strjoin.c -o ft_strjoin.o -I includes
+gcc -Wall -Wextra -Werror -c ft_strlcat.c -o ft_strlcat.o -I includes
+gcc -Wall -Wextra -Werror -c ft_strlcpy.c -o ft_strlcpy.o -I includes
+gcc -Wall -Wextra -Werror -c ft_strlen.c -o ft_strlen.o -I includes
+gcc -Wall -Wextra -Werror -c ft_strmapi.c -o ft_strmapi.o -I includes
+gcc -Wall -Wextra -Werror -c ft_strncmp.c -o ft_strncmp.o -I includes
+gcc -Wall -Wextra -Werror -c ft_strnstr.c -o ft_strnstr.o -I includes
+gcc -Wall -Wextra -Werror -c ft_strrchr.c -o ft_strrchr.o -I includes
+gcc -Wall -Wextra -Werror -c ft_strtrim.c -o ft_strtrim.o -I includes
+ 
+gcc -Wall -Wextra -Werror -c ft_substr.c -o ft_substr.o -I includes
+gcc -Wall -Wextra -Werror -c ft_tolower.c -o ft_tolower.o -I includes
+gcc -Wall -Wextra -Werror -c ft_toupper.c -o ft_toupper.o -I includes
+ar rc libft.a ft_atoi.o ft_bzero.o ft_calloc.o ft_isalnum.o ft_isalpha.o ft_isascii.o ft_isdigit.o ft_isprint.o ft_itoa.o ft_memchr.o ft_memcmp.o ft_memcpy.o ft_memmove.o ft_memset.o ft_putchar_fd.o ft_putendl_fd.o ft_putnbr_fd.o ft_putstr_fd.o ft_split.o ft_strchr.o ft_strdup.o ft_striteri.o ft_strjoin.o ft_strlcat.o ft_strlcpy.o ft_strlen.o ft_strmapi.o ft_strncmp.o ft_strnstr.o ft_strrchr.o ft_strtrim.o ft_substr.o ft_tolower.o ft_toupper.o
+ranlib libft.a
+ 
+make[1]: Leaving directory `/Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap/libft'
+ 
+cd ..
+ 
 make: Leaving directory `/Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap'
  
-make: *** No targets.  Stop.
-

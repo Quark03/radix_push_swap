@@ -6,7 +6,7 @@
 /*   By: acinca-f <acinca-f@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 18:36:15 by acinca-f          #+#    #+#             */
-/*   Updated: 2022/06/01 20:57:14 by acinca-f         ###   ########.fr       */
+/*   Updated: 2022/06/01 21:23:10 by acinca-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@
 int	lst_value_by_index(t_stack *head, int index)
 {
 	int	i;
-	int	lst_len;
 
 	i = 0;
 	while (head && i++ < index)

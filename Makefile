@@ -1,12 +1,11 @@
-SRCS =
-	src/commands.c \
+SRCS = src/commands.c \
 	src/commands2.c \
 	src/commands3.c \
 	src/long_atoi.c \
 	src/main.c \
 	src/sort_large.c \
 	src/sort_small.c \
-	src/sprt_small2.c \
+	src/sort_small2.c \
 	src/stacks.c \
 	src/stacks2.c \
 	src/utils.c \
