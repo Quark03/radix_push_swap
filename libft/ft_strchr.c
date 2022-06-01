@@ -1,29 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acinca-f <acinca-f@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: acinca-f@student.42lisboa.com <acinca-f>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/19 09:28:31 by acinca-f@st       #+#    #+#             */
-/*   Updated: 2022/06/01 21:15:52 by acinca-f         ###   ########.fr       */
+/*   Created: 2021/10/19 12:37:51 by acinca-f@student  #+#    #+#             */
+/*   Updated: 2021/10/25 09:49:37 by acinca-f@student ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(int c)
+char	*ft_strchr(const char *s, int c)
 {
-	if (c >= 48 && c <= 57)
-		return (1);
+	int	i;
+
+	i = 0;
+	while (s[i] != '\0')
+	{
+		if (s[i] == (char)c)
+			return ((char *)s + i);
+		i++;
+	}
+	if (c == '\0')
+		return ((char *)s + i);
 	return (0);
 }
 
 // int	main(void)
 // {
-// 	printf("Res <%d> <0> \n", ft_isdigit('g'));
-// 	printf("Res <%d> <0> \n", ft_isdigit('K'));
-// 	printf("Res <%d> <0> \n", ft_isdigit('\n'));
-// 	printf("Res <%d> <0> \n", ft_isdigit('%'));
-// 	printf("Res <%d> <1> \n", ft_isdigit('4'));
+// 	printf("Res <%s>\n", ft_strchr("Perter the rabbit", 'r'));
+// 	printf("Ori <%s>\n", strchr("Perter the rabbit", 'r'));
 // }

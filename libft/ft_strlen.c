@@ -1,14 +1,23 @@
-//
-// Created by quark on 18-05-2022.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: acinca-f@student.42liboa.com <acinca-f>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/10/19 09:56:42 by acinca-f@student  #+#    #+#             */
+/*   Updated: 2021/10/19 09:56:44 by acinca-f@student ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
 size_t	ft_strlen(const char *s)
 {
-    size_t	c;
+	size_t	c;
 
-    c = 0;
-    while (s[c] != '\0')
-        c++;
-    return (c);
+	c = 0;
+	while (s[c] != '\0')
+		c++;
+	return (c);
 }

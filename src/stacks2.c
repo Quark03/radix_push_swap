@@ -6,7 +6,7 @@
 /*   By: acinca-f <acinca-f@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 18:36:15 by acinca-f          #+#    #+#             */
-/*   Updated: 2022/06/01 20:47:53 by acinca-f         ###   ########.fr       */
+/*   Updated: 2022/06/01 20:57:14 by acinca-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,18 +77,4 @@ void	lst_delete_front(t_stack **list)
 	head = *list;
 	*list = (*list)->next;
 	free(head);
-}
-
-void	lst_remove_node(t_stack **list, int pos)
-{
-	int	i;
-	int	lst_len;
-
-	lst_len = lst_length(*list);
-	if (pos == lst_len - 1)
-		lst_delete_back(*list);
-	else if (pos == 0)
-		lst_delete_front(list);
-	else
-		lst_delete_middle(*list, pos);
 }

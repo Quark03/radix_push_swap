@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap'
+make: Leaving directory `/Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap'
+ 
+make: *** No targets.  Stop.
+
