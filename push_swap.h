@@ -1,6 +1,14 @@
-//
-// Created by quark on 30/03/22.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   push_swap.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: acinca-f <acinca-f@student.42lisboa.com    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/06/01 18:26:06 by acinca-f          #+#    #+#             */
+/*   Updated: 2022/06/01 18:30:00 by acinca-f         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
@@ -13,31 +21,31 @@
 // Custom Types
 typedef enum e_type
 {
-    A,
-    B
-} t_type;
+	A,
+	B
+}	t_type;
 
 typedef struct s_stack
 {
-    int             content;
-    struct s_stack  *next;
-} t_stack;
+	int				content;
+	struct s_stack	*next;
+}	t_stack;
 
 // main.c
-t_stack **get_stack(t_type stack);
+t_stack	**get_stack(t_type stack);
 
 // utils.c
-void exec_command(int cmd);
-void exec_multiple(int cmd, int rep);
-int is_sorted(t_stack *head);
-int get_min(t_stack *head);
-int get_max(t_stack *head);
-void reorder_a(void);
-int count_occurrences(int nbr, t_stack *head);
-int has_repeated_numbers(t_stack *head);
-void print_list(t_stack *head);
-int has_negative(t_stack *head);
-void print_stack(t_type stack);
+void	exec_command(int cmd);
+void	exec_multiple(int cmd, int rep);
+int		is_sorted(t_stack *head);
+int		get_min(t_stack *head);
+int		get_max(t_stack *head);
+void	reorder_a(void);
+int		count_occurrences(int nbr, t_stack *head);
+int		has_repeated_numbers(t_stack *head);
+void	print_list(t_stack *head);
+int		has_negative(t_stack *head);
+void	print_stack(t_type stack);
 
 // commands.c
 void	pa(void);
@@ -54,24 +62,24 @@ void	ss(void);
 
 // stacks.c
 t_stack	*lst_new(int nbr);
-void lst_add_back(t_stack *head, int nbr);
-void lst_initialize_add_back(t_stack **list, int nbr);
-void lst_add_front(t_stack **list, int nbr);
-int lst_length(t_stack *head);
-int lst_value_by_index(t_stack *head, int  index);
-int lst_index_by_value(t_stack *head, int value);
-void lst_delete_back(t_stack *head);
-void lst_delete_front(t_stack **list);
+void	lst_add_back(t_stack *head, int nbr);
+void	lst_initialize_add_back(t_stack **list, int nbr);
+void	lst_add_front(t_stack **list, int nbr);
+int		lst_length(t_stack *head);
+int		lst_value_by_index(t_stack *head, int index);
+int		lst_index_by_value(t_stack *head, int value);
+void	lst_delete_back(t_stack *head);
+void	st_delete_front(t_stack **list);
 
 // sort_small.c
-void sort_small(void);
+void	sort_small(void);
 
 // sort_large.c
-void sort_large(int negative);
-int flip_number(int nbr);
-void flip_numbers();
+void	sort_large(int negative);
+int		flip_number(int nbr);
+void	flip_numbers(void);
 
 // long_atoi.c
-long long_atoi(const char *str);
+long	long_atoi(const char *str);
 
 #endif

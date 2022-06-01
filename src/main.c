@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   push_swap.c                                        :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acinca-f <acinca-f@student.42lisboa.com>   +#+  +:+       +#+        */
+/*   By: acinca-f <acinca-f@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/26 10:30:01 by acinca-f          #+#    #+#             */
-/*   Updated: 2022/03/16 18:11:05 by acinca-f         ###   ########.fr       */
+/*   Updated: 2022/06/01 20:48:28 by acinca-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,38 +24,42 @@ t_stack	**get_stack(t_type stack)
 	return (&stack_a);
 }
 
-int invalid_number(int ac, char **av) {
-    int i = 0;
-    while (ac > 0)
-    {
-        long n = long_atoi(av[i++]);
-        if (n > INT_MAX)
-            return 1;
-        if (n < INT_MIN)
-            return 1;
-        ac--;
-    }
-    return 0;
+int	invalid_number(int ac, char **av)
+{
+	int		i;
+	long	n;
+
+	i = 0;
+	while (ac > 0)
+	{
+		n = long_atoi(av[i++]);
+		if (n > INT_MAX)
+			return (1);
+		if (n < INT_MIN)
+			return (1);
+		ac--;
+	}
+	return (0);
 }
 
-void stack_sort()
+void	stack_sort(void)
 {
-    if (is_sorted((*get_stack(A))))
-        return;
-    if (lst_length((*get_stack(A))) > 5)
-    {
-        if (has_negative((*get_stack(A))) == 0)
-            sort_large(0);
-        else
-        {
-            flip_numbers();
-            sort_large(1);
-            flip_numbers();
-            reorder_a();
-        }
-    }
-    else
-        sort_small();
+	if (is_sorted((*get_stack(A))))
+		return ;
+	if (lst_length((*get_stack(A))) > 5)
+	{
+		if (has_negative((*get_stack(A))) == 0)
+			sort_large(0);
+		else
+		{
+			flip_numbers();
+			sort_large(1);
+			flip_numbers();
+			reorder_a();
+		}
+	}
+	else
+		sort_small();
 }
 
 int	main(int ac, char **av)
@@ -63,13 +67,13 @@ int	main(int ac, char **av)
 	int		i;
 	t_stack	*temp;
 
-    (*get_stack(B)) = NULL;
-    i = 1;
-    if (invalid_number(ac, av))
-    {
-        ft_putstr_fd("ERROR\n", 1);
-        return 0;
-    }
+	(*get_stack(B)) = NULL;
+	i = 1;
+	if (invalid_number(ac, av))
+	{
+		ft_putstr_fd("ERROR\n", 1);
+		return (0);
+	}
 	while (i < ac)
 	{
 		if (i == 1)
@@ -78,20 +82,11 @@ int	main(int ac, char **av)
 			(*get_stack(A)) = temp;
 		}
 		else
-		{
 			lst_add_back((*get_stack(A)), ft_atoi(av[i]));
-		}
 		i++;
 	}
-    if (has_repeated_numbers((*get_stack(A)))) {
-        ft_putstr_fd("ERROR\n", 1);
-        return 0;
-    }
-	stack_sort();
-	ft_putstr_fd("\n✅ DONE\n", 1);
-	ft_putstr_fd("✅ ", 1);
-	print_stack(A);
-	ft_putstr_fd("✅ ", 1);
-	print_stack(B);
-    return (0);
+	if (has_repeated_numbers((*get_stack(A))))
+		ft_putstr_fd("ERROR\n", 1);
+	else
+		stack_sort();
 }

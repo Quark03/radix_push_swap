@@ -1,45 +1,43 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   long_atoi.c                                        :+:      :+:    :+:   */
+/*   utils3.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: acinca-f <acinca-f@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/01 18:09:37 by acinca-f          #+#    #+#             */
-/*   Updated: 2022/06/01 18:09:56 by acinca-f         ###   ########.fr       */
+/*   Created: 2022/06/01 18:43:37 by acinca-f          #+#    #+#             */
+/*   Updated: 2022/06/01 20:48:07 by acinca-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../push_swap.h"
 
-static int	ft_isspace(char c)
+/**
+ * Print Stack
+ * @param stack
+ */
+void	print_stack(t_type stack)
 {
-	if (c == ' ' || c == '\t' || c == '\n')
-		return (1);
-	else if (c == '\v' || c == '\f' || c == '\r')
-		return (1);
-	return (0);
-}
+	t_stack	*head;
+	t_stack	*temp;
 
-long	long_atoi(const char *str)
-{
-	int		sign;
-	long	r;
-
-	r = 0;
-	sign = 1;
-	while (ft_isspace(*str))
-		str++;
-	if (*str == '-' || *str == '+')
+	ft_putstr_fd("Stack", 1);
+	if (stack == A)
+		ft_putstr_fd(" A: ", 1);
+	else
+		ft_putstr_fd(" B: ", 1);
+	head = (*get_stack(stack));
+	temp = head;
+	if (!head)
 	{
-		if (*str == '-')
-			sign = -1;
-		str++;
+		ft_putstr_fd("(EMPTY)\n", 1);
+		return ;
 	}
-	while (ft_isdigit(*str))
+	while (temp != NULL)
 	{
-		r = r * 10 + *str - '0';
-		str++;
+		ft_putnbr_fd(temp->content, 1);
+		ft_putstr_fd(" ", 1);
+		temp = temp->next;
 	}
-	return (sign * r);
+	ft_putstr_fd("\n", 1);
 }
