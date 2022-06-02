@@ -3,6 +3,7 @@ SRCS = src/commands.c \
 	src/commands3.c \
 	src/long_atoi.c \
 	src/main.c \
+	src/parse.c \
 	src/sort_large.c \
 	src/sort_small.c \
 	src/sort5.c \

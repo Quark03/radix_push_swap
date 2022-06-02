@@ -6,7 +6,7 @@
 /*   By: acinca-f <acinca-f@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 18:26:06 by acinca-f          #+#    #+#             */
-/*   Updated: 2022/06/02 13:53:26 by acinca-f         ###   ########.fr       */
+/*   Updated: 2022/06/02 14:15:57 by acinca-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,9 @@ typedef struct s_stack
 
 // main.c
 t_stack	**get_stack(t_type stack);
+
+// parse.c
+
 
 // utils.c
 void	exec_command(int cmd);
