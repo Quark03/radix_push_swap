@@ -1,4 +1,4 @@
-"/Users/antoniofestas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/antoniofestas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/antoniofestas/Documents/42/radix_push_swap -B /Users/antoniofestas/Documents/42/radix_push_swap/cmake-build-debug
+"/Users/antoniofestas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/antoniofestas/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap -B /Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap/cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/antoniofestas/Documents/42/radix_push_swap/cmake-build-debug
+-- Build files have been written to: /Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap/cmake-build-debug

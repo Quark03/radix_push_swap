@@ -106,8 +106,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/antoniofestas/Documents/42/radix_push_swap/cmake-build-debug",
-		"source" : "/Users/antoniofestas/Documents/42/radix_push_swap"
+		"build" : "/Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap/cmake-build-debug",
+		"source" : "/Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap"
 	},
 	"version" : 
 	{

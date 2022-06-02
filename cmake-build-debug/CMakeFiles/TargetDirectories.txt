@@ -1,3 +1,3 @@
-/Users/antoniofestas/Documents/42/radix_push_swap/cmake-build-debug/CMakeFiles/radix_push_swap.dir
-/Users/antoniofestas/Documents/42/radix_push_swap/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/antoniofestas/Documents/42/radix_push_swap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap/cmake-build-debug/CMakeFiles/radix_push_swap.dir
+/Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap/cmake-build-debug/CMakeFiles/rebuild_cache.dir

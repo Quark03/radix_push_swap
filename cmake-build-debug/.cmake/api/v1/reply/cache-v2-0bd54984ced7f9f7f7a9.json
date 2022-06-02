@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/antoniofestas/Documents/42/radix_push_swap/cmake-build-debug"
+			"value" : "/Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -419,7 +419,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/antoniofestas/Documents/42/radix_push_swap"
+			"value" : "/Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -991,7 +991,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/antoniofestas/Documents/42/radix_push_swap/cmake-build-debug"
+			"value" : "/Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap/cmake-build-debug"
 		},
 		{
 			"name" : "radix_push_swap_IS_TOP_LEVEL",
@@ -1015,7 +1015,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/antoniofestas/Documents/42/radix_push_swap"
+			"value" : "/Users/antoniofestas/Documents/42/Cursus/push_swap/radix_push_swap"
 		}
 	],
 	"kind" : "cache",

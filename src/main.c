@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acinca-f <acinca-f@student.42lisboa.com>   +#+  +:+       +#+        */
+/*   By: acinca-f <acinca-f@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/26 10:30:01 by acinca-f          #+#    #+#             */
-/*   Updated: 2022/06/02 14:08:19 by acinca-f         ###   ########.fr       */
+/*   Updated: 2022/06/02 15:17:27 by acinca-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,15 +52,18 @@ void	stack_sort(void)
 			sort_large(0);
 		else
 		{
-			flip_numbers();
-			sort_large(1);
-			flip_numbers();
-			reorder_a();
+			parse_negatives();
+			sort_large(0);
 		}
 	}
 	else
 		sort_small();
 }
+
+// flip_numbers();
+// sort_large(1);
+// flip_numbers();
+// reorder_a();
 
 int	main(int ac, char **av)
 {
