@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sort_small.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acinca-f <acinca-f@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: acinca-f <acinca-f@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 18:33:04 by acinca-f          #+#    #+#             */
-/*   Updated: 2022/06/01 18:44:43 by acinca-f         ###   ########.fr       */
+/*   Updated: 2022/06/02 13:53:47 by acinca-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,10 @@ void	sort3(void)
 	max_pos = lst_index_by_value((*get_stack(A)), get_max((*get_stack(A))));
 	if (is_sorted((*get_stack(A))))
 		return ;
-	if (min_pos == 0)
+	if (min_pos == 0 && max_pos == 1)
 	{
-		exec_command(3);
-		exec_command(0);
 		exec_command(6);
+		exec_command(0);
 	}
 	else if (min_pos == 1 && max_pos == 2)
 		exec_command(0);
@@ -44,41 +43,6 @@ void	sort3(void)
 	}
 	else if (min_pos == 2 && max_pos == 1)
 		exec_command(6);
-}
-
-void	complex_sort(int value)
-{
-	t_stack	*head;
-	int		moves;
-
-	head = (*get_stack(A));
-	moves = 0;
-	while (head)
-	{
-		if (head->content < value)
-			moves++;
-		head = head->next;
-	}
-	if (moves <= 2)
-	{
-		while (moves-- > 0)
-			exec_command(3);
-	}
-	else
-		exec_command(6);
-	exec_command(9);
-}
-
-void	sort5(void)
-{
-	while (lst_length((*get_stack(A))) > 3)
-		exec_command(10);
-	sort3();
-	while (lst_length((*get_stack(B))) > 0)
-	{
-		sort_to_a((*get_stack(B))->content);
-		reorder_a();
-	}
 }
 
 void	sort_small(void)

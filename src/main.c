@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acinca-f <acinca-f@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: acinca-f <acinca-f@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/26 10:30:01 by acinca-f          #+#    #+#             */
-/*   Updated: 2022/06/01 21:14:07 by acinca-f         ###   ########.fr       */
+/*   Updated: 2022/06/02 13:38:02 by acinca-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@ int	main(int ac, char **av)
 	i = 1;
 	if (invalid_number(ac, av))
 	{
-		ft_putstr_fd("ERROR\n", 1);
+		ft_putstr_fd("Error\n", 1);
 		return (0);
 	}
 	while (i < ac)
@@ -86,7 +86,7 @@ int	main(int ac, char **av)
 		i++;
 	}
 	if (has_repeated_numbers((*get_stack(A))))
-		ft_putstr_fd("ERROR\n", 1);
+		ft_putstr_fd("Error\n", 1);
 	else
 		stack_sort();
 }

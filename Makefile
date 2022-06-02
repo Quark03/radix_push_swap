@@ -5,7 +5,7 @@ SRCS = src/commands.c \
 	src/main.c \
 	src/sort_large.c \
 	src/sort_small.c \
-	src/sort_small2.c \
+	src/sort5.c \
 	src/stacks.c \
 	src/stacks2.c \
 	src/utils.c \
@@ -47,7 +47,7 @@ SRCS = src/commands.c \
 	libft/ft_toupper.c \
 
 OBJS = ${SRCS:.c=.o}
-NAME = libftprintf.a
+NAME = push_swap
 HEAD = includes
 CC = gcc
 RM = rm -f
@@ -55,16 +55,15 @@ CFLAGS = -Wall -Wextra -Werror
 AR = ar rc
 RANLIB = ranlib
 
+all: ${NAME}
+
 .c.o:
 	${CC} ${CFLAGS} -c $< -o ${<:.c=.o} -I ${HEAD}
 
 ${NAME}: ${OBJS}
-	${AR} ${NAME} ${OBJS}
-	${RANLIB} ${NAME}
+	${CC} ${CFLAGS} -o ${NAME} ${OBJS}
 	cd libft && ${MAKE}
 	cd ..
-
-all: ${NAME}
 
 clean:
 	${RM} ${OBJS}

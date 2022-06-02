@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acinca-f <acinca-f@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: acinca-f <acinca-f@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 18:26:06 by acinca-f          #+#    #+#             */
-/*   Updated: 2022/06/01 20:54:46 by acinca-f         ###   ########.fr       */
+/*   Updated: 2022/06/02 13:53:26 by acinca-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,10 +73,11 @@ void	st_delete_front(t_stack **list);
 
 // sort_small.c
 void	sort_small(void);
-void	complex_sort(int value);
+void	sort3(void);
+void	sort2(void);
 
-// sort_small2.c
-void	sort_to_a(int value);
+// sort5.c
+void	sort5(void);
 
 // sort_large.c
 void	sort_large(int negative);
